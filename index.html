@@ -43,7 +43,11 @@
     "@pdfsmaller/pdf-encrypt-lite": "https://esm.sh/@pdfsmaller/pdf-encrypt-lite@^1.0.1",
     "jspdf": "https://esm.sh/jspdf@2.5.1",
     "html2canvas": "https://esm.sh/html2canvas@1.4.1",
-    "pdfjs-dist": "https://esm.sh/pdfjs-dist@^5.4.530"
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@^5.4.530",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "url": "https://esm.sh/url@^0.11.4",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "path": "https://esm.sh/path@^0.12.7"
   }
 }
 </script>
@@ -56,8 +60,10 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 </style>
+<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased min-h-screen flex flex-col">
     <div id="root" class="flex-grow flex flex-col"></div>
-  </body>
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>

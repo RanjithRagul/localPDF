@@ -10,10 +10,10 @@ export default defineConfig(() => {
   return {
     // Use relative base path to ensure assets load correctly on GitHub Pages
     // regardless of the repository name (e.g. /repo-name/ or root domain)
-    base: '/localPDFFUN/',
+    base: '/.',
 
     server: {
-      port: 3000,
+      port: 3001,
       host: '0.0.0.0',
     },
 

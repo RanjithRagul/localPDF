@@ -8,8 +8,6 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig(() => {
   return {
-    // Use relative base path to ensure assets load correctly on GitHub Pages
-    // regardless of the repository name (e.g. /repo-name/ or root domain)
     base: '/.',
 
     server: {
